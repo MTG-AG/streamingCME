@@ -33,8 +33,6 @@ Fortunately, generating S is the last step of the key generation process. By usi
 
 * crypto_kem_keypair_sk_only(): 
   * unsigned char r[ SYS_T*2 + (1 << GFBITS)*sizeof(uint32_t) + SYS_N/8 + 32 ];
-  * gf f[ SYS_T ];
-  * gf irr[ SYS_T ];
   * uint32_t perm[ 1 << GFBITS ]; 
 * gen_L(): uint64_t buf[ 1 << GFBITS ];
 * genpoly_gen(): gf mat[ SYS_T+1 ][ SYS_T ];
