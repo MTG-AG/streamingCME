@@ -1,4 +1,4 @@
-This project contains the code base that was used for the paper Classic McEliece Implementation with Low Memory Footprint ([Springer](https://link.springer.com/chapter/10.1007/978-3-030-68487-7_3) [CARDIS2020](https://cardis2020.its.uni-luebeck.de/files/CARDIS2020_Roth_ClassicMcElieceImplementation_paper.pdf))
+This project contains the code base that was used for the paper Classic McEliece Implementation with Low Memory Footprint ([Springer](https://link.springer.com/chapter/10.1007/978-3-030-68487-7_3) | [ePrint](https://eprint.iacr.org/2021/138)).
 
 The code can be built with cmake. Has been tested with GCC (WSL).
 
