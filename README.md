@@ -41,6 +41,10 @@ Fortunately, generating S is the last step of the key generation process. By usi
 * perm_check(): uint64_t list[1 << GFBITS];
 
 
+Furthermore, note that the variable `sk` (secret key) is currently not reflecting the changes to the secret key. That is, not all elements of the extended private key are copied to that memory location.
+In addition to the `sk` variable, the variables `L`, `g`, and the variable for the inverse of `S` (called something like `inv_mat`/`inverseMat` in the code) are passed to functions as needed.
+
+
 # License
 
 See LICENSE.txt file. Parts of the code are licensed under the CC0 / MIT / Apache 2.0 license.

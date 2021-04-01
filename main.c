@@ -31,11 +31,6 @@ int test_LUKeyGen_StreamingEncaps()
   clock_t end;
   double time_spent;
 
-  printf("PUBLIC KEY SIZE = %u\n", CRYPTO_PUBLICKEYBYTES);
-  printf("PRIVATE KEY SIZE = %u\n", CRYPTO_SECRETKEYBYTES);
-  printf("CIPHERTEXT SIZE = %u\n", CRYPTO_CIPHERTEXTBYTES);
-  printf("SHARED SECRET SIZE = %u\n", CRYPTO_BYTES);
-
   /*
    * compute (extended) private key
    */
@@ -93,7 +88,7 @@ int test_LUKeyGen_StreamingEncaps()
    * test streaming encapsulation
    */
 
-  printf("\ntest streaming encapsulation\n");
+  printf("\ntest streaming encapsulation (locally)\n");
 
   unsigned char tmp_8cols[SYS_T*GFBITS];
   unsigned char e[SYS_N];

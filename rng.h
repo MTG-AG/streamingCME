@@ -1,7 +1,3 @@
-//
-// Created by jroth on 13.06.2019.
-//
-
 #ifndef CME_RNG_H
 #define CME_RNG_H
 
