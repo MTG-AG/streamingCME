@@ -1,4 +1,4 @@
-This project contains the code base that was used for the paper Classic McEliece Implementation with Low Memory Footprint ([Springer](https://link.springer.com/chapter/10.1007/978-3-030-68487-7_3) [CARDIS2020](https://cardis2020.its.uni-luebeck.de/files/CARDIS2020_Roth_ClassicMcElieceImplementation_paper.pdf))
+This project contains the code base that was used for the paper Classic McEliece Implementation with Low Memory Footprint ([Springer](https://link.springer.com/chapter/10.1007/978-3-030-68487-7_3) | [ePrint](https://eprint.iacr.org/2021/138)).
 
 The code can be built with cmake. Has been tested with GCC (WSL).
 
@@ -33,8 +33,6 @@ Fortunately, generating S is the last step of the key generation process. By usi
 
 * crypto_kem_keypair_sk_only(): 
   * unsigned char r[ SYS_T*2 + (1 << GFBITS)*sizeof(uint32_t) + SYS_N/8 + 32 ];
-  * gf f[ SYS_T ];
-  * gf irr[ SYS_T ];
   * uint32_t perm[ 1 << GFBITS ]; 
 * gen_L(): uint64_t buf[ 1 << GFBITS ];
 * genpoly_gen(): gf mat[ SYS_T+1 ][ SYS_T ];
