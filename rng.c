@@ -1,7 +1,3 @@
-//
-// Created by jroth on 13.06.2019.
-//
-
 #include "rng.h"
 #include <stdlib.h>
 
